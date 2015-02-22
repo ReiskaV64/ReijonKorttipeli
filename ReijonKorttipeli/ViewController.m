@@ -25,6 +25,7 @@
     return _game;
 }
 
+// Tämä on Dev
 - (Deck *)createDeck
 {
     return [[PlayingCardDeck alloc] init];
