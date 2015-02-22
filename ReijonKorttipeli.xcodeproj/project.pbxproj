@@ -9,11 +9,16 @@
 /* Begin PBXBuildFile section */
 		1B8565CD1A99EBED00F8A5C0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B8565CC1A99EBED00F8A5C0 /* main.m */; };
 		1B8565D01A99EBED00F8A5C0 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B8565CF1A99EBED00F8A5C0 /* AppDelegate.m */; };
-		1B8565D31A99EBED00F8A5C0 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B8565D21A99EBED00F8A5C0 /* ViewController.m */; };
-		1B8565D61A99EBED00F8A5C0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1B8565D41A99EBED00F8A5C0 /* Main.storyboard */; };
-		1B8565D81A99EBED00F8A5C0 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1B8565D71A99EBED00F8A5C0 /* Images.xcassets */; };
 		1B8565DB1A99EBED00F8A5C0 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1B8565D91A99EBED00F8A5C0 /* LaunchScreen.xib */; };
 		1B8565E71A99EBEE00F8A5C0 /* ReijonKorttipeliTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B8565E61A99EBED00F8A5C0 /* ReijonKorttipeliTests.m */; };
+		1B8565F51A99ECC500F8A5C0 /* Card.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B8565F11A99ECC500F8A5C0 /* Card.m */; };
+		1B8565F61A99ECC500F8A5C0 /* Deck.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B8565F31A99ECC500F8A5C0 /* Deck.m */; };
+		1B8565F71A99ECC500F8A5C0 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1B8565F41A99ECC500F8A5C0 /* Images.xcassets */; };
+		1B8566001A99ECDD00F8A5C0 /* Muistikorttipeli.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B8565F91A99ECDD00F8A5C0 /* Muistikorttipeli.m */; };
+		1B8566011A99ECDD00F8A5C0 /* PlayingCard.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B8565FB1A99ECDD00F8A5C0 /* PlayingCard.m */; };
+		1B8566021A99ECDD00F8A5C0 /* PlayingCardDeck.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B8565FD1A99ECDD00F8A5C0 /* PlayingCardDeck.m */; };
+		1B8566031A99ECDD00F8A5C0 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B8565FF1A99ECDD00F8A5C0 /* ViewController.m */; };
+		1B8566051A99EE4800F8A5C0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1B8566041A99EE4800F8A5C0 /* Main.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -32,14 +37,24 @@
 		1B8565CC1A99EBED00F8A5C0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		1B8565CE1A99EBED00F8A5C0 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		1B8565CF1A99EBED00F8A5C0 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		1B8565D11A99EBED00F8A5C0 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		1B8565D21A99EBED00F8A5C0 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		1B8565D51A99EBED00F8A5C0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		1B8565D71A99EBED00F8A5C0 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		1B8565DA1A99EBED00F8A5C0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		1B8565E01A99EBED00F8A5C0 /* ReijonKorttipeliTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ReijonKorttipeliTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1B8565E51A99EBED00F8A5C0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1B8565E61A99EBED00F8A5C0 /* ReijonKorttipeliTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ReijonKorttipeliTests.m; sourceTree = "<group>"; };
+		1B8565F01A99ECC500F8A5C0 /* Card.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Card.h; sourceTree = "<group>"; };
+		1B8565F11A99ECC500F8A5C0 /* Card.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Card.m; sourceTree = "<group>"; };
+		1B8565F21A99ECC500F8A5C0 /* Deck.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Deck.h; sourceTree = "<group>"; };
+		1B8565F31A99ECC500F8A5C0 /* Deck.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Deck.m; sourceTree = "<group>"; };
+		1B8565F41A99ECC500F8A5C0 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		1B8565F81A99ECDD00F8A5C0 /* Muistikorttipeli.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Muistikorttipeli.h; sourceTree = "<group>"; };
+		1B8565F91A99ECDD00F8A5C0 /* Muistikorttipeli.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Muistikorttipeli.m; sourceTree = "<group>"; };
+		1B8565FA1A99ECDD00F8A5C0 /* PlayingCard.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlayingCard.h; sourceTree = "<group>"; };
+		1B8565FB1A99ECDD00F8A5C0 /* PlayingCard.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlayingCard.m; sourceTree = "<group>"; };
+		1B8565FC1A99ECDD00F8A5C0 /* PlayingCardDeck.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlayingCardDeck.h; sourceTree = "<group>"; };
+		1B8565FD1A99ECDD00F8A5C0 /* PlayingCardDeck.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlayingCardDeck.m; sourceTree = "<group>"; };
+		1B8565FE1A99ECDD00F8A5C0 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		1B8565FF1A99ECDD00F8A5C0 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		1B8566041A99EE4800F8A5C0 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,13 +96,21 @@
 		1B8565C91A99EBED00F8A5C0 /* ReijonKorttipeli */ = {
 			isa = PBXGroup;
 			children = (
-				1B8565CE1A99EBED00F8A5C0 /* AppDelegate.h */,
-				1B8565CF1A99EBED00F8A5C0 /* AppDelegate.m */,
-				1B8565D11A99EBED00F8A5C0 /* ViewController.h */,
-				1B8565D21A99EBED00F8A5C0 /* ViewController.m */,
-				1B8565D41A99EBED00F8A5C0 /* Main.storyboard */,
-				1B8565D71A99EBED00F8A5C0 /* Images.xcassets */,
+				1B8565F81A99ECDD00F8A5C0 /* Muistikorttipeli.h */,
+				1B8565F91A99ECDD00F8A5C0 /* Muistikorttipeli.m */,
+				1B8565FA1A99ECDD00F8A5C0 /* PlayingCard.h */,
+				1B8565FB1A99ECDD00F8A5C0 /* PlayingCard.m */,
+				1B8565FC1A99ECDD00F8A5C0 /* PlayingCardDeck.h */,
+				1B8565FD1A99ECDD00F8A5C0 /* PlayingCardDeck.m */,
+				1B8565FE1A99ECDD00F8A5C0 /* ViewController.h */,
+				1B8565FF1A99ECDD00F8A5C0 /* ViewController.m */,
+				1B8565F01A99ECC500F8A5C0 /* Card.h */,
+				1B8565F11A99ECC500F8A5C0 /* Card.m */,
+				1B8565F21A99ECC500F8A5C0 /* Deck.h */,
+				1B8565F31A99ECC500F8A5C0 /* Deck.m */,
+				1B8565F41A99ECC500F8A5C0 /* Images.xcassets */,
 				1B8565D91A99EBED00F8A5C0 /* LaunchScreen.xib */,
+				1B8566041A99EE4800F8A5C0 /* Main.storyboard */,
 				1B8565CA1A99EBED00F8A5C0 /* Supporting Files */,
 			);
 			path = ReijonKorttipeli;
@@ -96,6 +119,8 @@
 		1B8565CA1A99EBED00F8A5C0 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				1B8565CE1A99EBED00F8A5C0 /* AppDelegate.h */,
+				1B8565CF1A99EBED00F8A5C0 /* AppDelegate.m */,
 				1B8565CB1A99EBED00F8A5C0 /* Info.plist */,
 				1B8565CC1A99EBED00F8A5C0 /* main.m */,
 			);
@@ -199,9 +224,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1B8565D61A99EBED00F8A5C0 /* Main.storyboard in Resources */,
+				1B8566051A99EE4800F8A5C0 /* Main.storyboard in Resources */,
 				1B8565DB1A99EBED00F8A5C0 /* LaunchScreen.xib in Resources */,
-				1B8565D81A99EBED00F8A5C0 /* Images.xcassets in Resources */,
+				1B8565F71A99ECC500F8A5C0 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -219,9 +244,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1B8565D31A99EBED00F8A5C0 /* ViewController.m in Sources */,
+				1B8566011A99ECDD00F8A5C0 /* PlayingCard.m in Sources */,
+				1B8565F61A99ECC500F8A5C0 /* Deck.m in Sources */,
+				1B8566031A99ECDD00F8A5C0 /* ViewController.m in Sources */,
 				1B8565D01A99EBED00F8A5C0 /* AppDelegate.m in Sources */,
 				1B8565CD1A99EBED00F8A5C0 /* main.m in Sources */,
+				1B8566021A99ECDD00F8A5C0 /* PlayingCardDeck.m in Sources */,
+				1B8566001A99ECDD00F8A5C0 /* Muistikorttipeli.m in Sources */,
+				1B8565F51A99ECC500F8A5C0 /* Card.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -244,14 +274,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		1B8565D41A99EBED00F8A5C0 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				1B8565D51A99EBED00F8A5C0 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		1B8565D91A99EBED00F8A5C0 /* LaunchScreen.xib */ = {
 			isa = PBXVariantGroup;
 			children = (
